@@ -22,3 +22,6 @@ Route::get('/abc', function () {
 Route::get('/product', function () {
     return view('product');
 });
+Route::get('/shop', function () {
+    return view('shop');
+});
