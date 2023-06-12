@@ -6,7 +6,7 @@
             <div class="logo col-md-2 col-lg-2 d-none d-lg-block">
               <a href="index.html">
                 <img
-                  src="assets/images/logo.svg"
+                  src="/images/logo/logo-to.png"
                   alt="Belle Multipurpose Html Template"
                   title="Belle Multipurpose Html Template"
                 />

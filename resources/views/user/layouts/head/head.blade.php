@@ -4,7 +4,7 @@
     <meta name="description" content="description" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/images/logo/logo2.png" />
+    <link rel="shortcut icon" href="/images/logo/logo.png" />
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/css/plugins.css" />
     <!-- Bootstap CSS -->
