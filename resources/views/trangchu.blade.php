@@ -1,4 +1,4 @@
-@extends('Frontend.layouts.master')
+@extends('user.master')
 @section('main-content')
 
 @endsection

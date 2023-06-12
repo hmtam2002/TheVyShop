@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html class="no-js" lang="vi">
 <head>
     @include('user.layouts.head')
 </head>
