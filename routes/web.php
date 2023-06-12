@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+// use view\user\index
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('trangchu');
 });
 Route::get('/abc', function () {
-    return view('trangchu');
+    return view('index');
 });
