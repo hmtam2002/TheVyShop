@@ -1,4 +1,4 @@
-@extends('user.master')
+@extends('user.index.master')
 @section('main-content')
 <div id="page-content">
     @include('user.index.slider')
