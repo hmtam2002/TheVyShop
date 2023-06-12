@@ -10,7 +10,7 @@
           type="search"
           name="q"
           value=""
-          placeholder="Search entire store..."
+          placeholder="Tìm kiếm ..."
           aria-label="Search"
           autocomplete="off"
         />
