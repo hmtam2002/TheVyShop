@@ -488,7 +488,7 @@
                     </div>
                   </li>
                   <li class="lvl1 parent megamenu">
-                    <a href="#">Product <i class="anm anm-angle-down-l"></i></a>
+                    <a href="#">Trẻ em<i class="anm anm-angle-down-l"></i></a>
                     <div class="megamenu style2">
                       <ul class="grid mmWrapper">
                         <li class="grid__item one-whole">
@@ -704,7 +704,7 @@
                     </div>
                   </li>
                   <li class="lvl1 parent dropdown">
-                    <a href="#">Pages <i class="anm anm-angle-down-l"></i></a>
+                    <a href="#">Bộ sưu tập<i class="anm anm-angle-down-l"></i></a>
                     <ul class="dropdown">
                       <li>
                         <a href="cart-variant1.html" class="site-nav"
@@ -809,7 +809,7 @@
                   </li>
                   <li class="lvl1">
                     <a href="#"
-                      ><b>Buy Now!</b> <i class="anm anm-angle-down-l"></i
+                      ><b>Về chúng tôi</b> <i class="anm anm-angle-down-l"></i
                     ></a>
                   </li>
                 </ul>
