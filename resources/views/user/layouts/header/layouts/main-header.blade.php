@@ -4,7 +4,7 @@
           <div class="row align-items-center">
             <!--Desktop Logo-->
             <div class="logo col-md-2 col-lg-2 d-none d-lg-block">
-              <a href="index.html">
+              <a href="{{ URL::route('index') }}">
                 <img
                   src="/images/logo/logo-to.png"
                   alt="Belle Multipurpose Html Template"
