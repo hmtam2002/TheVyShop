@@ -18,7 +18,8 @@
               <span class="lbl on-sale">Sale</span
               ><span class="lbl pr-label1">new</span>
             </div>
-            <div class="product-buttons">
+            {{-- code của nút youtube với lại nút phóng to nhưng ko cần --}}
+            {{-- <div class="product-buttons">
               <a
                 href="https://www.youtube.com/watch?v=93A2jOW5Mog"
                 class="btn popup-video"
@@ -31,8 +32,9 @@
                   aria-hidden="true"
                 ></i
               ></a>
-            </div>
+            </div> --}}
           </div>
+          {{-- bắt đầu các tấm hình nhỏ bên dưới --}}
           <div class="product-thumb product-thumb-1">
             <div
               id="gallery"
@@ -152,6 +154,7 @@
               </a>
             </div>
           </div>
+          {{-- kết thúc các tấm hình nhỏ bên dưới --}}
           <div class="lightboximages">
             <a
               href="assets/images/product-detail-page/camelia-reversible-big1.jpg"

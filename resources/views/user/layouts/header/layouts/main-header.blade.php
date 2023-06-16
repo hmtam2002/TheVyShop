@@ -28,7 +28,7 @@
                 <!-- for mobile -->
                 <ul id="siteNav" class="site-nav medium center hidearrow">
                   <li class="lvl1 parent megamenu">
-                    <a href="#">Nữ <i class="anm anm-angle-down-l"></i></a>
+                    <a href="#">Nữ<i class="anm anm-angle-down-l"></i></a>
                     <div class="megamenu style1">
                       <ul class="grid mmWrapper">
                         <li class="grid__item large-up--one-whole">
@@ -254,7 +254,7 @@
                     </div>
                   </li>
                   <li class="lvl1 parent megamenu">
-                    <a href="#">Nam <i class="anm anm-angle-down-l"></i></a>
+                    <a href="#">Nam<i class="anm anm-angle-down-l"></i></a>
                     <div class="megamenu style4">
                       <ul class="grid grid--uniform mmWrapper">
                         <li class="grid__item lvl-1 col-md-3 col-lg-3">
@@ -392,7 +392,7 @@
                     </div>
                   </li>
                   <li class="lvl1 parent megamenu">
-                    <a href="#">Product <i class="anm anm-angle-down-l"></i></a>
+                    <a href="#">Trẻ em<i class="anm anm-angle-down-l"></i></a>
                     <div class="megamenu style2">
                       <ul class="grid mmWrapper">
                         <li class="grid__item one-whole">
@@ -608,7 +608,7 @@
                     </div>
                   </li>
                   <li class="lvl1 parent dropdown">
-                    <a href="#">Pages <i class="anm anm-angle-down-l"></i></a>
+                    <a href="#">Bộ sưu tập<i class="anm anm-angle-down-l"></i></a>
                     <ul class="dropdown">
                       <li>
                         <a href="cart-variant1.html" class="site-nav"
@@ -684,7 +684,7 @@
                     </ul>
                   </li>
                   <li class="lvl1 parent dropdown">
-                    <a href="#">Blog <i class="anm anm-angle-down-l"></i></a>
+                    <a href="#">Blog<i class="anm anm-angle-down-l"></i></a>
                     <ul class="dropdown">
                       <li>
                         <a href="blog-left-sidebar.html" class="site-nav"
