@@ -25,3 +25,6 @@ Route::get('/product', function () {
 Route::get('/shop', function () {
     return view('shop');
 });
+Route::get('/admin', function () {
+    return view('admin.index');
+});

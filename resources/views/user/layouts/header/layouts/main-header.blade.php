@@ -725,9 +725,9 @@
               class="col-6 col-sm-6 col-md-6 col-lg-2 d-block d-lg-none mobile-logo"
             >
               <div class="logo">
-                <a href="index.html">
+                <a href="{{ URL::route('index') }}">
                   <img
-                    src="assets/images/logo.svg"
+                    src="images/logo/logo-to.png"
                     alt="Belle Multipurpose Html Template"
                     title="Belle Multipurpose Html Template"
                   />
