@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('trangchu');
 // });
+//trang chủ
+Route::get('/index', function () {
+    return view('index');
+})->name('index');
 Route::get('/', function () {
     return view('index');
 })->name('index');
