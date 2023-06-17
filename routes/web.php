@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('trangchu');
+// });
 Route::get('/', function () {
-    return view('trangchu');
-});
-Route::get('/index', function () {
     return view('index');
 })->name('index');
 Route::get('/product', function () {
