@@ -1,5 +1,8 @@
       <!--Header-->
-      <div class="header-wrap {{ Request::is('index')? 'classicHeader' : '' }} animated d-flex">
+      {{-- <div class="header-wrap {{ Request::is('index')? 'classicHeader' : '' }} animated d-flex"> --}}
+      <div class="header-wrap animated d-flex
+      <?= (\Request::getRequestUri()=='/')?'classicHeader':''?>
+      ">
         <div class="container-fluid">
           <div class="row align-items-center">
             <!--Desktop Logo-->
