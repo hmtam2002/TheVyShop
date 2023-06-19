@@ -1,5 +1,5 @@
 <!-- Js Config -->
-<script type="text/javascript">
+{{-- <script type="text/javascript">
     var PHP_VERSION = parseFloat('<?= phpversion() ?>'.replaceAll('.', ','));
     var CONFIG_BASE = '<?= $configBase ?>';
     var TOKEN = '<?= TOKEN ?>';
@@ -23,28 +23,28 @@
     var ORDER_MAX_TOTAL = <?= (!empty($maxTotal)) ? $maxTotal : 1 ?>;
     var ORDER_PRICE_FROM = <?= (!empty($price_from)) ? $price_from : 1 ?>;
     var ORDER_PRICE_TO = <?= (!empty($price_to)) ? $price_to : ((!empty($maxTotal)) ? $maxTotal : 1) ?>;
-</script>
+</script> --}}
 
 <!-- Js Files -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/moment.min.js"></script>
-<script src="assets/confirm/confirm.js"></script>
-<script src="assets/select2/select2.full.js"></script>
-<script src="assets/sumoselect/jquery.sumoselect.js"></script>
-<script src="assets/datetimepicker/php-date-formatter.min.js"></script>
-<script src="assets/datetimepicker/jquery.mousewheel.js"></script>
-<script src="assets/datetimepicker/jquery.datetimepicker.js"></script>
-<script src="assets/daterangepicker/daterangepicker.js"></script>
-<script src="assets/rangeSlider/ion.rangeSlider.js"></script>
-<script src="assets/js/priceFormat.js"></script>
-<script src="assets/jscolor/jscolor.js"></script>
-<script src="assets/filer/jquery.filer.js"></script>
-<script src="assets/holdon/HoldOn.js"></script>
-<script src="assets/sortable/Sortable.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="assets/js/adminlte.js"></script>
+<script src="admin_assets/js/jquery.min.js"></script>
+<script src="admin_assets/js/moment.min.js"></script>
+<script src="admin_assets/confirm/confirm.js"></script>
+<script src="admin_assets/select2/select2.full.js"></script>
+<script src="admin_assets/sumoselect/jquery.sumoselect.js"></script>
+<script src="admin_assets/datetimepicker/php-date-formatter.min.js"></script>
+<script src="admin_assets/datetimepicker/jquery.mousewheel.js"></script>
+<script src="admin_assets/datetimepicker/jquery.datetimepicker.js"></script>
+<script src="admin_assets/daterangepicker/daterangepicker.js"></script>
+<script src="admin_assets/rangeSlider/ion.rangeSlider.js"></script>
+<script src="admin_assets/js/priceFormat.js"></script>
+<script src="admin_assets/jscolor/jscolor.js"></script>
+<script src="admin_assets/filer/jquery.filer.js"></script>
+<script src="admin_assets/holdon/HoldOn.js"></script>
+<script src="admin_assets/sortable/Sortable.js"></script>
+<script src="admin_assets/js/bootstrap.js"></script>
+<script src="admin_assets/js/adminlte.js"></script>
 <script src="ckeditor/ckeditor.js"></script>
-<script src="assets/apexcharts/apexcharts.min.js"></script>
-<script src="assets/simplenotify/simple-notify.js"></script>
-<script src="assets/comment/comment.js"></script>
-<script src="assets/js/apps.js"></script>
+<script src="admin_assets/apexcharts/apexcharts.min.js"></script>
+<script src="admin_assets/simplenotify/simple-notify.js"></script>
+<script src="admin_assets/comment/comment.js"></script>
+<script src="admin_assets/js/apps.js"></script>
