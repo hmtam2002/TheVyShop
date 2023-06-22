@@ -15,7 +15,8 @@
     {{-- Loader --}}
     {{-- @include('admin.blade_template.layout.loader') --}}
 
-    <div class="wrapper">
+    {{-- thử thôi --}}
+    {{-- <div class="wrapper">
         <!-- Header -->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light text-sm">
             <!-- Left navbar links -->
@@ -814,6 +815,15 @@
             <p class="mb-1">Tel: 028.37154879 - Fax: 028.37154878</p>
             <p class="mb-0">Email: nina@nina.vn</p>
         </footer>
+    </div> --}}
+
+    <div class="wrapper">
+
+        {{-- header --}}
+        @include('admin.blade_template.layout.menu')
+
+        {{-- menu --}}
+        @include('admin.blade_template.layout.header')
     </div>
 
     {{-- login --}}
