@@ -23,5 +23,8 @@ Route::get('/shop', function () {
     return view('shop');
 });
 Route::get('/admin', function () {
-    return view('AdminLTE-master.index');
+    return view('admin.index');
+});
+Route::get('/admin/login', function () {
+    return view('admin.blade_template.user.login');
 });
