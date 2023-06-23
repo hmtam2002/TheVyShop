@@ -25,6 +25,6 @@ Route::get('/shop', function () {
 Route::get('/admin', function () {
     return view('admin.index');
 });
-Route::get('/admin/login', function () {
-    return view('admin.blade_template.user.login');
+Route::get('/login', function () {
+    return view('admin.login');
 });
