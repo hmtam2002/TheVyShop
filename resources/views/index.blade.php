@@ -1,4 +1,3 @@
-{{-- @extends('user.index.master') --}}
 @extends('user.master')
 @section('main-content')
     <div id="page-content">
