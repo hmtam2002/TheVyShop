@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4 text-sm">
     <!-- Logo -->
     <a style="margin-top: 15px" class="brand-link" href="index.php">
-        <img style="width: 150px;margin: 20px 0;" class="brand-image" src="admin_assets/images/logo-admin.png"
+        <img style="width: 200px;margin: 20px 0;" class="brand-image" src="admin_assets/images/logo-admin.png"
             alt="TheVyShop">
     </a>
     <div class="sidebar">
