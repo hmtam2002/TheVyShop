@@ -1,49 +1,42 @@
-{{-- group sản phẩm --}}
 <li class="nav-item has-treeview menu-group">
     <a class="nav-link" href="#" title="Quản lý">
         <i class="nav-icon text-sm fas fa-layer-group"></i>
         <p>
-            Group sản phẩm
+            Group tin tức
             <i class="right fas fa-angle-left"></i>
         </p>
     </a>
     <ul class="nav nav-treeview">
         <li class="nav-item has-treeview ">
-            <a class="nav-link" href="#" title="Quản lý sản phẩm">
-                <i class="nav-icon text-sm fas fa-boxes"></i>
+            <a class="nav-link " href="#" title="Quản lý TINTUC">
+                <i class="nav-icon text-sm fas fa-book"></i>
                 <p>
-                    Quản lý sản phẩm
+                    Quản lý tin tức
                     <i class="right fas fa-angle-left"></i>
                 </p>
             </a>
             <ul class="nav nav-treeview">
-                <li class="nav-item "><a class="nav-link " href="#" title="Danh mục cấp 1"><i
+                <li class="nav-item "><a class="nav-link " href="" title="Danh mục cấp 1"><i
                             class="nav-icon text-sm far fa-caret-square-right"></i>
                         <p>Danh mục cấp 1</p>
                     </a></li>
-                <li class="nav-item"><a class="nav-link " href="#" title="Danh mục cấp 2"><i
+
+                <li class="nav-item "><a class="nav-link " href="" title="Danh mục cấp 2"><i
                             class="nav-icon text-sm far fa-caret-square-right"></i>
                         <p>Danh mục cấp 2</p>
+
+                <li class="nav-item"><a class="nav-link " href="" title="Danh mục cấp 3"><i
+                            class="nav-icon text-sm far fa-caret-square-right"></i>
+                        <p>Danh mục cấp 3</p>
+
+                <li class="nav-item "><a class="nav-link " href="" title="Danh mục cấp 4"><i
+                            class="nav-icon text-sm far fa-caret-square-right"></i>
+                        <p>Danh mục cấp 4</p>
                     </a></li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#" title="Danh mục hãng"><i
+                <li class="nav-item "><a class="nav-link" href="" title=""><i
                             class="nav-icon text-sm far fa-caret-square-right"></i>
-                        <p>Danh mục hãng</p>
-                    </a>
-                </li>
-
-                <li class="nav-item "><a class="nav-link " href="#" title="Danh mục màu sắc"><i
-                            class="nav-icon text-sm far fa-caret-square-right"></i>
-                        <p>Danh mục màu sắc</p>
-                    </a></li>
-                <li class="nav-item"><a class="nav-link" href="#" title="Danh mục kích thước"><i
-                            class="nav-icon text-sm far fa-caret-square-right"></i>
-                        <p>Danh mục kích thước</p>
-                    </a></li>
-                <li class="nav-item"><a class="nav-link" href="#" title="Danh mục kích thước"><i
-                            class="nav-icon text-sm far fa-caret-square-right"></i>
-                        <p>Sản phẩm</p>
+                        <p>Tin tức</p>
                     </a></li>
             </ul>
         </li>
@@ -52,13 +45,19 @@
         <li class="nav-item ">
             <a class="nav-link " href="" title=""><i
                     class="nav-icon text-sm far fa-caret-square-right"></i>
-                <p>Tag sản phẩm</p>
+                <p>Tuyển dụng</p>
             </a>
         </li>
         <li class="nav-item ">
             <a class="nav-link " href="" title=""><i
                     class="nav-icon text-sm far fa-caret-square-right"></i>
-                <p>Watermark</p>
+                <p>Tags tin tức</p>
+            </a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link " href="" title=""><i
+                    class="nav-icon text-sm far fa-caret-square-right"></i>
+                <p>Watermark tin tức</p>
             </a>
         </li>
     </ul>
