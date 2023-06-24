@@ -3,60 +3,36 @@
         <nav class="mt-3">
             <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent text-sm" data-widget="treeview"
                 role="menu" data-accordion="false">
-                <li class="nav-item active">
-                    <a class="nav-link active" href="#" title="Bảng điều khiển">
-                        <i class="nav-icon text-sm fas fa-tachometer-alt"></i>
-                        <p>Bảng điều khiển</p>
-                    </a>
-                </li>
-                <li class="nav-item has-treeview menu-group">
-                    <a class="nav-link" href="#" title="Quản lý">
-                        <i class="nav-icon text-sm fas fa-layer-group"></i>
-                        <p>
-                            Group sản phẩm
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item has-treeview ">
-                            <a class="nav-link" href="#" title="Quản lý sản phẩm">
-                                <i class="nav-icon text-sm fas fa-boxes"></i>
-                                <p>
-                                    Quản lý sản phẩm
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item "><a class="nav-link " href="#" title="Danh mục cấp 1"><i
-                                            class="nav-icon text-sm far fa-caret-square-right"></i>
-                                        <p>Danh mục cấp 1</p>
-                                    </a></li>
-                                <li class="nav-item"><a class="nav-link " href="#" title="Danh mục cấp 2"><i
-                                            class="nav-icon text-sm far fa-caret-square-right"></i>
-                                        <p>Danh mục cấp 2</p>
-                                    </a></li>
-
-                                <li class="nav-item"><a class="nav-link" href="#" title="Danh mục hãng"><i
-                                            class="nav-icon text-sm far fa-caret-square-right"></i>
-                                        <p>Danh mục hãng</p>
-                                    </a></li>
-
-                                <li class="nav-item "><a class="nav-link " href="#" title="Danh mục màu sắc"><i
-                                            class="nav-icon text-sm far fa-caret-square-right"></i>
-                                        <p>Danh mục màu sắc</p>
-                                    </a></li>
-                                <li class="nav-item"><a class="nav-link" href="#" title="Danh mục kích thước"><i
-                                            class="nav-icon text-sm far fa-caret-square-right"></i>
-                                        <p>Danh mục kích thước</p>
-                                    </a></li>
 
 
+                {{-- bảng điều khiển --}}
+                @include('admin.blade_template.layout.menu.bangdieukhien')
+                {{-- group sản phẩm --}}
+                @include('admin.blade_template.layout.menu.group_sanpham')
+                {{-- group tin tức  --}}
 
-                            </ul>
-                        </li>
-
-                    </ul>
-                </li>
+                {{-- quản lý thư viện ảnh --}}
+                @include('admin.blade_template.layout.menu.thuvienanh')
+                {{-- quản lý bài viết --}}
+                @include('admin.blade_template.layout.menu.quanlybaiviet')
+                {{-- quản lý đơn hàng --}}
+                @include('admin.blade_template.layout.menu.quanlydonhang')
+                {{-- quản lý tag --}}
+                @include('admin.blade_template.layout.menu.quanlytag')
+                {{-- quản lý nhận tin --}}
+                @include('admin.blade_template.layout.menu.quanlynhantin')
+                {{-- quản lý trang tĩnh --}}
+                @include('admin.blade_template.layout.menu.quanlytrangtinh')
+                {{-- quản lý hình ảnh, video --}}
+                @include('admin.blade_template.layout.menu.hinhanh_video')
+                {{-- quản lý địa điểm --}}
+                @include('admin.blade_template.layout.menu.quanlydiadiem')
+                {{-- quản lý user --}}
+                @include('admin.blade_template.layout.menu.quanlyuser')
+                {{-- quản lý SEO page --}}
+                @include('admin.blade_template.layout.menu.seo')
+                {{-- thiết lập thông tin --}}
+                @include('admin.blade_template.layout.menu.thietlapthongtin')
             </ul>
         </nav>
     </div>

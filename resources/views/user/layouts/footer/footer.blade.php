@@ -135,7 +135,7 @@
                     <!--Footer Copyright-->
                     <div
                         class="col-12 col-sm-12 col-md-6 col-lg-6 order-1 order-md-0 order-lg-0 order-sm-1 copyright text-sm-center text-md-left text-lg-left">
-                        <span></span> <a href="templateshub.net">Templates Hub</a>
+                        <span></span> <a href="templateshub.net">Copyright © 2023 - Design by The Vy Shop</a>
                     </div>
                     <!--End Footer Copyright-->
                     <!--Footer Payment Icon-->
