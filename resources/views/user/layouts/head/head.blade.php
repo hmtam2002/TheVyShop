@@ -4,11 +4,11 @@
     <meta name="description" content="description" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/images/logo/logo.png" />
+    <link rel="shortcut icon" href="{{ asset('/images/logo/logo.png') }}" />
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}" />
     <!-- Bootstap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" />

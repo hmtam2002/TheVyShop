@@ -1,6 +1,6 @@
 {{-- group sản phẩm --}}
-<li class="nav-item has-treeview menu-group">
-    <a class="nav-link" href="#" title="Quản lý">
+<li class="nav-item has-treeview menu-group ">
+    <a class="nav-link " href="#" title="Quản lý">
         <i class="nav-icon text-sm fas fa-layer-group"></i>
         <p>
             Group sản phẩm
@@ -17,7 +17,7 @@
                 </p>
             </a>
             <ul class="nav nav-treeview">
-                <li class="nav-item "><a class="nav-link " href="#" title="Danh mục cấp 1"><i
+                <li class="nav-item "><a class="nav-link  " href="#" title="Danh mục cấp 1"><i
                             class="nav-icon text-sm far fa-caret-square-right"></i>
                         <p>Danh mục cấp 1</p>
                     </a></li>

@@ -235,16 +235,16 @@
 <!-- End Newsletter Popup -->
 
 <!-- Including Jquery -->
-<script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
-<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-<script src="assets/js/vendor/jquery.cookie.js"></script>
-<script src="assets/js/vendor/wow.min.js"></script>
+<script src="{{ asset('assets/js/vendor/jquery-3.3.1.min.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/modernizr-3.6.0.min.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/jquery.cookie.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/wow.min.js') }}"></script>
 <!-- Including Javascript -->
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/lazysizes.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/js/plugins.js') }}"></script>
+<script src="{{ asset('assets/js/popper.min.js') }}"></script>
+<script src="{{ asset('assets/js/lazysizes.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 <!--For Newsletter Popup-->
 <script>
     jQuery(document).ready(function() {
