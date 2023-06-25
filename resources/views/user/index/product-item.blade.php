@@ -4,8 +4,8 @@
         <a href="product-accordion.html" class="grid-view-item__link">
             <!-- image -->
             <img class="grid-view-item__image primary blur-up lazyload"
-                data-src="assets/images/product-images/product-image1.jpg"
-                src="assets/images/product-images/product-image1.jpg" alt="image" title="product" />
+                data-src="{{ asset('assets/images/product-images/product-image1.jpg') }}"
+                src="{{ asset('assets/images/product-images/product-image1.jpg') }}" alt="image" title="product" />
             <!-- End image -->
             <!-- Hover image -->
             <img class="grid-view-item__image hover blur-up lazyload"
@@ -62,22 +62,22 @@
         <!-- Variant -->
         <ul class="swatches text-center">
             <li class="swatch medium rounded">
-                <img src="assets/images/product-images/variant1.jpg" alt="image" />
+                <img src="{{ asset('assets/images/product-images/variant1.jpg') }}" alt="image" />
             </li>
             <li class="swatch medium rounded">
-                <img src="assets/images/product-images/variant2.jpg" alt="image" />
+                <img src="{{ asset('assets/images/product-images/variant2.jpg') }}" alt="image" />
             </li>
             <li class="swatch medium rounded">
-                <img src="assets/images/product-images/variant3.jpg" alt="image" />
+                <img src="{{ asset('assets/images/product-images/variant3.jpg') }}" alt="image" />
             </li>
             <li class="swatch medium rounded">
-                <img src="assets/images/product-images/variant4.jpg" alt="image" />
+                <img src="{{ asset('assets/images/product-images/variant4.jpg') }}" alt="image" />
             </li>
             <li class="swatch medium rounded">
-                <img src="assets/images/product-images/variant5.jpg" alt="image" />
+                <img src="{{ asset('assets/images/product-images/variant5.jpg') }}" alt="image" />
             </li>
             <li class="swatch medium rounded">
-                <img src="assets/images/product-images/variant6.jpg" alt="image" />
+                <img src="{{ asset('assets/images/product-images/variant6.jpg') }}" alt="image" />
             </li>
         </ul>
         <!-- End Variant -->

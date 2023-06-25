@@ -13,7 +13,7 @@
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="product-details-img">
                                     <div class="pl-20">
-                                        <img src="assets/images/product-detail-page/camelia-reversible-big1.jpg"
+                                        <img src="{{ asset('assets/images/product-detail-page/camelia-reversible-big1.jpg') }}"
                                             alt="" />
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@
                                                         name="option-0" value="Red" />
                                                     <label class="swatchLbl color medium rectangle" for="swatch-0-red"
                                                         style="
-                                background-image: url(assets/images/product-detail-page/variant1-1.jpg);
+                                background-image: url({{ asset('assets/images/product-detail-page/variant1-1.jpg') }});
                               "
                                                         title="Red"></label>
                                                 </div>
@@ -70,7 +70,7 @@
                                                         name="option-0" value="Blue" />
                                                     <label class="swatchLbl color medium rectangle" for="swatch-0-blue"
                                                         style="
-                                background-image: url(assets/images/product-detail-page/variant1-2.jpg);
+                                background-image: url({{ asset('assets/images/product-detail-page/variant1-2.jpg') }});
                               "
                                                         title="Blue"></label>
                                                 </div>
@@ -79,7 +79,7 @@
                                                         name="option-0" value="Green" />
                                                     <label class="swatchLbl color medium rectangle" for="swatch-0-green"
                                                         style="
-                                background-image: url(assets/images/product-detail-page/variant1-3.jpg);
+                                background-image: url({{ asset('assets/images/product-detail-page/variant1-3.jpg') }});
                               "
                                                         title="Green"></label>
                                                 </div>
@@ -88,7 +88,7 @@
                                                         name="option-0" value="Gray" />
                                                     <label class="swatchLbl color medium rectangle" for="swatch-0-gray"
                                                         style="
-                                background-image: url(assets/images/product-detail-page/variant1-4.jpg);
+                                background-image: url({{ asset('assets/images/product-detail-page/variant1-4.jpg') }});
                               "
                                                         title="Gray"></label>
                                                 </div>

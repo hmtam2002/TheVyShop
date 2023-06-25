@@ -5,7 +5,8 @@
         <!-- Modal content-->
         <div class="display-table splash-bg">
             <div class="display-table-cell width40">
-                <img src="assets/images/newsletter-img.jpg" alt="Join Our Mailing List" title="Join Our Mailing List" />
+                <img src="{{ asset('assets/images/newsletter-img.jpg') }}" alt="Join Our Mailing List"
+                    title="Join Our Mailing List" />
             </div>
             <div class="display-table-cell width60 text-center">
                 <div class="newsletter-left">

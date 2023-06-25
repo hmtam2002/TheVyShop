@@ -4,8 +4,9 @@
         <div class="collection-grid">
             <div class="collection-grid-item">
                 <a href="collection-page.html" class="collection-grid-item__link">
-                    <img data-src="assets/images/collection/fashion.jpg" src="assets/images/collection/fashion.jpg"
-                        alt="Fashion" class="blur-up lazyload" />
+                    <img data-src="{{ asset('assets/images/collection/fashion.jpg') }}"
+                        src="{{ asset('assets/images/collection/fashion.jpg') }}" alt="Fashion"
+                        class="blur-up lazyload" />
                     <div class="collection-grid-item__title-wrapper">
                         <h3 class="collection-grid-item__title btn btn--secondary no-border">
                             Fashion
@@ -15,8 +16,8 @@
             </div>
             <div class="collection-grid-item">
                 <a href="collection-page.html" class="collection-grid-item__link">
-                    <img class="blur-up lazyload" data-src="assets/images/collection/cosmetic.jpg"
-                        src="assets/images/collection/cosmetic.jpg" alt="Cosmetic" />
+                    <img class="blur-up lazyload" data-src="{{ asset('assets/images/collection/cosmetic.jpg') }}"
+                        src="{{ asset('assets/images/collection/cosmetic.jpg') }}" alt="Cosmetic" />
                     <div class="collection-grid-item__title-wrapper">
                         <h3 class="collection-grid-item__title btn btn--secondary no-border">
                             Cosmetic
@@ -48,8 +49,9 @@
             </div>
             <div class="collection-grid-item">
                 <a href="collection-page.html" class="collection-grid-item__link">
-                    <img data-src="assets/images/collection/shoes.jpg" src="assets/images/collection/shoes.jpg"
-                        alt="Shoes" class="blur-up lazyload" />
+                    <img data-src="{{ asset('assets/images/collection/shoes.jpg') }}"
+                        src="{{ asset('assets/images/collection/shoes.jpg') }}" alt="Shoes"
+                        class="blur-up lazyload" />
                     <div class="collection-grid-item__title-wrapper">
                         <h3 class="collection-grid-item__title btn btn--secondary no-border">
                             Shoes
@@ -59,8 +61,9 @@
             </div>
             <div class="collection-grid-item">
                 <a href="collection-page.html" class="collection-grid-item__link">
-                    <img data-src="assets/images/collection/jewellry.jpg" src="assets/images/collection/jewellry.jpg"
-                        alt="Jewellry" class="blur-up lazyload" />
+                    <img data-src="{{ asset('assets/images/collection/jewellry.jpg') }}"
+                        src="{{ asset('assets/images/collection/jewellry.jpg') }}" alt="Jewellry"
+                        class="blur-up lazyload" />
                     <div class="collection-grid-item__title-wrapper">
                         <h3 class="collection-grid-item__title btn btn--secondary no-border">
                             Jewellry

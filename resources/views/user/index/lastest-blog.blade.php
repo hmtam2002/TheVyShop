@@ -12,7 +12,7 @@
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="wrap-blog">
                     <a href="blog-left-sidebar.html" class="article__grid-image">
-                        <img src="assets/images/blog/post-img1.jpg" alt="It's all about how you wear"
+                        <img src="{{ asset('assets/images/blog/post-img1.jpg') }}" alt="It's all about how you wear"
                             title="It's all about how you wear" class="blur-up lazyloaded" />
                     </a>
                     <div class="article__grid-meta article__grid-meta--has-image">
@@ -36,7 +36,7 @@
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="wrap-blog">
                     <a href="blog-left-sidebar.html" class="article__grid-image">
-                        <img src="assets/images/blog/post-img2.jpg" alt="27 Days of Spring Fashion Recap"
+                        <img src="{{ asset('assets/images/blog/post-img2.jpg') }}" alt="27 Days of Spring Fashion Recap"
                             title="27 Days of Spring Fashion Recap" class="blur-up lazyloaded" />
                     </a>
                     <div class="article__grid-meta article__grid-meta--has-image">

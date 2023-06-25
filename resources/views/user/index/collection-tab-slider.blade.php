@@ -23,15 +23,15 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image1.jpg"
-                                                src="assets/images/product-images/product-image1.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image1.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
                                                 data-src="assets/images/product-images/product-image1-1.jpg"
-                                                src="assets/images/product-images/product-image1-1.jpg" alt="image"
-                                                title="product" />
+                                                src="{{ asset('assets/images/product-images/product-image1-1.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End hover image -->
                                             <!-- product label -->
                                             <div class="product-labels rectangular">
@@ -98,22 +98,28 @@
                                         <!-- Variant -->
                                         <ul class="swatches">
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant1.jpg" alt="image" />
+                                                <img src="{{ asset('assets/images/product-images/variant1.jpg') }}"
+                                                    alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant2.jpg" alt="image" />
+                                                <img src="{{ asset('assets/images/product-images/variant2.jpg') }}"
+                                                    alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant3.jpg" alt="image" />
+                                                <img src="{{ asset('assets/images/product-images/variant3.jpg') }}"
+                                                    alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant4.jpg" alt="image" />
+                                                <img src="{{ asset('assets/images/product-images/variant4.jpg') }}"
+                                                    alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant5.jpg" alt="image" />
+                                                <img src="{{ asset('assets/images/product-images/variant5.jpg') }}"
+                                                    alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant6.jpg" alt="image" />
+                                                <img src="{{ asset('assets/images/product-images/variant6.jpg') }}"
+                                                    alt="image" />
                                             </li>
                                         </ul>
                                         <!-- End Variant -->
@@ -127,15 +133,15 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image2.jpg"
-                                                src="assets/images/product-images/product-image2.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image2.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image2.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image2-1.jpg"
-                                                src="assets/images/product-images/product-image2-1.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image2-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image2-1.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End hover image -->
                                         </a>
                                         <!-- end product image -->
@@ -191,19 +197,19 @@
                                         <!-- Variant -->
                                         <ul class="swatches">
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant2-1.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant2-1.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant2-2.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant2-2.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant2-3.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant2-3.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant2-4.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant2-4.jpg') }}"
                                                     alt="image" />
                                             </li>
                                         </ul>
@@ -218,15 +224,15 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image3.jpg"
-                                                src="assets/images/product-images/product-image3.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image3.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image3.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image3-1.jpg"
-                                                src="assets/images/product-images/product-image3-1.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image3-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image3-1.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End hover image -->
                                             <!-- product label -->
                                             <div class="product-labels rectangular">
@@ -288,19 +294,19 @@
                                         <!-- Variant -->
                                         <ul class="swatches">
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant3-1.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant3-1.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant3-2.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant3-2.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant3-3.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant3-3.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant3-4.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant3-4.jpg') }}"
                                                     alt="image" />
                                             </li>
                                         </ul>
@@ -315,15 +321,15 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image4.jpg"
-                                                src="assets/images/product-images/product-image4.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image4.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image4.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image4-1.jpg"
-                                                src="assets/images/product-images/product-image4-1.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image4-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image4-1.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End hover image -->
                                             <!-- product label -->
                                             <div class="product-labels">
@@ -386,19 +392,19 @@
                                         <!-- Variant -->
                                         <ul class="swatches">
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant4-1.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant4-1.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant4-2.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant4-2.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant4-3.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant4-3.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant4-4.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant4-4.jpg') }}"
                                                     alt="image" />
                                             </li>
                                         </ul>
@@ -413,9 +419,9 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image5.jpg"
-                                                src="assets/images/product-images/product-image5.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image5.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image5.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
@@ -483,19 +489,19 @@
                                         <!-- Variant -->
                                         <ul class="swatches">
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant3-1.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant3-1.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant3-2.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant3-2.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant3-3.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant3-3.jpg') }}"
                                                     alt="image" />
                                             </li>
                                             <li class="swatch medium rounded">
-                                                <img src="assets/images/product-images/variant3-4.jpg"
+                                                <img src="{{ asset('assets/images/product-images/variant3-4.jpg') }}"
                                                     alt="image" />
                                             </li>
                                         </ul>
@@ -514,15 +520,15 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image6.jpg"
-                                                src="assets/images/product-images/product-image6.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image6.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image6.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image6-1.jpg"
-                                                src="assets/images/product-images/product-image6-1.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image6-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image6-1.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End hover image -->
                                             <!-- product label -->
                                             <div class="product-labels rectangular">
@@ -592,15 +598,15 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image7.jpg"
-                                                src="assets/images/product-images/product-image7.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image7.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image7.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image7-1.jpg"
-                                                src="assets/images/product-images/product-image7-1.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image7-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image7-1.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End hover image -->
                                         </a>
                                         <!-- end product image -->
@@ -663,15 +669,15 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image8.jpg"
-                                                src="assets/images/product-images/product-image8.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image8.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image8.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image8-1.jpg"
-                                                src="assets/images/product-images/product-image8-1.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image8-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image8-1.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End hover image -->
                                         </a>
                                         <!-- end product image -->
@@ -736,15 +742,15 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image9.jpg"
-                                                src="assets/images/product-images/product-image9.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image9.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image9.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image9-1.jpg"
-                                                src="assets/images/product-images/product-image9-1.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image9-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image9-1.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End hover image -->
                                         </a>
                                         <!-- end product image -->
@@ -808,14 +814,14 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image10.jpg"
-                                                src="assets/images/product-images/product-image10.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image10.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image10.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image10-1.jpg"
-                                                src="assets/images/product-images/product-image10-1.jpg"
+                                                data-src="{{ asset('assets/images/product-images/product-image10-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image10-1.jpg') }}"
                                                 alt="image" title="product" />
                                             <!-- End hover image -->
                                         </a>
@@ -884,14 +890,14 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image11.jpg"
-                                                src="assets/images/product-images/product-image11.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image11.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image11.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image11-1.jpg"
-                                                src="assets/images/product-images/product-image11-1.jpg"
+                                                data-src="{{ asset('assets/images/product-images/product-image11-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image11-1.jpg') }}"
                                                 alt="image" title="product" />
                                             <!-- End hover image -->
                                         </a>
@@ -956,9 +962,9 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image12.jpg"
-                                                src="assets/images/product-images/product-image12.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image12.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image12.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
@@ -1027,14 +1033,14 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image13.jpg"
-                                                src="assets/images/product-images/product-image13.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image13.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image13.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image13-1.jpg"
-                                                src="assets/images/product-images/product-image13-1.jpg"
+                                                data-src="{{ asset('assets/images/product-images/product-image13-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image13-1.jpg') }}"
                                                 alt="image" title="product" />
                                             <!-- End hover image -->
                                         </a>
@@ -1106,8 +1112,8 @@
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image14-1.jpg"
-                                                src="assets/images/product-images/product-image14-1.jpg"
+                                                data-src="{{ asset('assets/images/product-images/product-image14-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image14-1.jpg') }}"
                                                 alt="image" title="product" />
                                             <!-- End hover image -->
                                         </a>
@@ -1172,14 +1178,14 @@
                                         <a href="short-description.html">
                                             <!-- image -->
                                             <img class="primary blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image15.jpg"
-                                                src="assets/images/product-images/product-image15.jpg" alt="image"
-                                                title="product" />
+                                                data-src="{{ asset('assets/images/product-images/product-image15.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image15.jpg') }}"
+                                                alt="image" title="product" />
                                             <!-- End image -->
                                             <!-- Hover image -->
                                             <img class="hover blur-up lazyload"
-                                                data-src="assets/images/product-images/product-image15-1.jpg"
-                                                src="assets/images/product-images/product-image15-1.jpg"
+                                                data-src="{{ asset('assets/images/product-images/product-image15-1.jpg') }}"
+                                                src="{{ asset('assets/images/product-images/product-image15-1.jpg') }}"
                                                 alt="image" title="product" />
                                             <!-- End hover image -->
                                         </a>

@@ -264,7 +264,8 @@
                                               </ul>
                                           </li>
                                           <li class="grid__item lvl-1 col-md-6 col-lg-6">
-                                              <a href="#"><img src="assets/images/megamenu-bg1.jpg"
+                                              <a href="#"><img
+                                                      src="{{ asset('assets/images/megamenu-bg1.jpg') }}"
                                                       alt="" title="" /></a>
                                           </li>
                                       </ul>
@@ -516,7 +517,7 @@
                               <ul class="mini-products-list">
                                   <li class="item">
                                       <a class="product-image" href="#">
-                                          <img src="assets/images/product-images/cape-dress-1.jpg"
+                                          <img src="{{ asset('assets/images/product-images/cape-dress-1.jpg') }}"
                                               alt="3/4 Sleeve Kimono Dress" title="" />
                                       </a>
                                       <div class="product-details">
@@ -546,7 +547,7 @@
                                   </li>
                                   <li class="item">
                                       <a class="product-image" href="#">
-                                          <img src="assets/images/product-images/cape-dress-2.jpg"
+                                          <img src="{{ asset('assets/images/product-images/cape-dress-2.jpg') }}"
                                               alt="Elastic Waist Dress - Black / Small" title="" />
                                       </a>
                                       <div class="product-details">
