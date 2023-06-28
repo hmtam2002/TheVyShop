@@ -29,7 +29,5 @@ Route::get('/admin', function () {
 Route::get('/admin/login', function () {
     return view('admin.login');
 });
-// Route::get('/setting', function () {
-//     return view('admin.setting');
-// });
-Route::get('admin/setting/',[setting::class,'index']);
+
+Route::get('admin/app/setting/',[setting::class,'index']);
