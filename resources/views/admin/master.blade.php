@@ -17,6 +17,7 @@
 
 
     @include('admin.blade_template.layout.js')
+
 </body>
 
 </html>

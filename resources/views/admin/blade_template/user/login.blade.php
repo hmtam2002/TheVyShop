@@ -20,12 +20,13 @@
                             <span class="fas fa-lock"></span>
                         </div>
                     </div>
-                    <input type="password" class="form-control text-sm" name="password" id="password"
+                    <input type="password" class="form-control text-sm" name="password" id="passwordInput"
                         placeholder="Mật khẩu *" autocomplete="off">
                     <div class="input-group-append">
                         <div class="input-group-text show-password">
                             <span class="fas fa-eye"></span>
                         </div>
+
                     </div>
                 </div>
                 <button type="button" class="btn btn-sm bg-gradient-danger btn-block btn-login text-sm p-2">
