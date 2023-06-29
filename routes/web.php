@@ -26,9 +26,6 @@ Route::get('/shop', function () {
 Route::get('/admin', function () {
     return view('admin.index');
 });
-Route::get('/login2', function () {
-    return view('admin.login2');
-});
 Route::get('/login', function () {
     return view('admin.login');
 });
