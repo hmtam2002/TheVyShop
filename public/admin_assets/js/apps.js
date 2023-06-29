@@ -1106,7 +1106,7 @@ $(document).ready(function () {
     }
 
     /* Login */
-    if (1) {
+    if (LOGIN_PAGE) {
         $("#username, #password").keypress(function (event) {
             if (event.keyCode == 13 || event.which == 13) login();
         });
