@@ -1,0 +1,382 @@
+@media (max-width: 992px) {
+  .content-text img {
+    height: auto !important;
+  }
+  .cart-fixed {
+    bottom: 220px;
+  }
+
+  a.btn-datlich {
+    bottom: 300px;
+  }
+  .btn-frame,
+  #messages-facebook,
+  .menu {
+    display: none !important;
+  }
+
+  .menu-res {
+    display: block !important;
+  }
+
+  .cart-pro-detail {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .product-tool {
+    opacity: 1;
+    visibility: visible;
+    position: initial;
+  }
+  .product-tool a span {
+    display: none;
+  }
+
+  .footer-title:after {
+    width: 100%;
+  }
+
+  #fanpage-facebook {
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .footer-news:nth-child(4) {
+    width: 50%;
+    text-align: center;
+  }
+
+  .footer-news:nth-child(3) {
+    width: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-news:nth-child(2) {
+    width: 50%;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .footer-news:nth-child(1) {
+    text-align: center;
+    width: 50%;
+  }
+  .copyright,
+  .statistic {
+    width: 100%;
+    text-align: center;
+  }
+
+  /*owner*/
+  img.gach {
+    margin-top: 10px;
+    position: absolute;
+    left: 43%;
+  }
+  .footer-top-form {
+    margin-top: 10px;
+  }
+  #footer-map {
+    height: auto;
+  }
+  /*header*/
+  p.info-header {
+    display: none;
+  }
+  .social.social-header.d-flex.align-items-center {
+    display: none !important;
+  }
+  .header-logo {
+    display: none;
+  }
+  .header-index {
+    width: 100%;
+    margin: 0;
+  }
+  .header-logo-reponsive {
+    display: block !important;
+  }
+
+  /*dich vu*/
+  .dichvu-index {
+    margin-top: 20px;
+  }
+  .title-main {
+    font-size: 30px;
+    font-family: BachDang;
+  }
+  .tieude {
+    padding-bottom: 30px;
+  }
+  a.name-dichvu.text-split.text-decoration-none {
+    font-size: 15px;
+  }
+  .desc-newsnb {
+    font-size: 13px;
+    padding-top: 0px;
+  }
+  .dichvu-info {
+    max-width: 2000px;
+  }
+  a.img-dv {
+    display: none;
+  }
+  p.name-tieuchi.text-split.text-center {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .tieuchi-index {
+    margin-bottom: 15px;
+  }
+  .item_dichvu_outside:nth-child(odd) {
+    left: 0;
+  }
+  .dichvu-info {
+    justify-content: center;
+  }
+
+  /*sanpham*/
+  .box-product {
+    padding: 0px 8px;
+  }
+
+  /*gioi thieu*/
+  .info-gioithieu.text-center {
+    width: 100%;
+    margin-top: 15px;
+    padding-left: 0px;
+  }
+  .gioithieu-index::before {
+    display: none;
+  }
+  .xemthem a {
+    background-color: var(--color-main);
+    color: #fff;
+  }
+  .small-pic.scale-img {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  .pic-gioithieu.d-flex.justify-content-lg-between {
+    width: 100%;
+  }
+  .desc-gioithieu {
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  .name-gioithieu {
+    padding-bottom: 0px;
+  }
+  .gioithieu-index {
+    margin: 30px 0px 50px 0px;
+  }
+  .xemthem {
+    margin-top: 10px;
+    bottom: -20px;
+  }
+  .big-pic {
+    margin-left: 0;
+  }
+
+  /*tai sao chon*/
+  .taisaochon-tieude {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  p.desc-taisao {
+    text-align: center;
+  }
+  p.desc-cauhoi.text-split3 {
+    margin-bottom: 9px;
+    margin-top: -10px;
+  }
+  .banner-index {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .slick-taisaochon {
+    display: block;
+    justify-content: center;
+  }
+  .item-taisao:nth-child(odd) {
+    left: 0;
+  }
+  .taisaochon-index {
+    margin: 0;
+  }
+
+  /*tin tuc*/
+  .newshome {
+    display: block !important;
+    margin-bottom: 4px;
+  }
+  p.time-newshome {
+    display: none;
+  }
+  .newHot-info {
+    margin-bottom: 30px;
+  }
+  /*brand*/
+  .brand-info {
+    margin-bottom: 30px;
+  }
+
+  /*nhan xet*/
+  .wrap-nhanxet {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  ul.footer-ul li a {
+    text-align: center;
+  }
+  .item-video1 img {
+    height: 250px;
+  }
+
+  .right-intro {
+    width: 100%;
+  }
+
+  .left-intro {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 0;
+  }
+
+  .left-pro-detail,
+  .right-pro-detail {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .left-pro-detail,
+  .top-contact .article-contact {
+    margin-bottom: 30px;
+  }
+
+  .pic-news,
+  .info-news {
+    width: 100%;
+    float: none;
+  }
+
+  .info-news {
+    margin-top: 15px;
+    padding-left: 0;
+  }
+  .footer-news:nth-child(4) {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-news:nth-child(3) {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-news:nth-child(2) {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .footer-ul {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer-news:nth-child(1) {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  #fanpage-facebook {
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .footer-ul li {
+    width: calc(100% / 2 - 5px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*owner*/
+  .title-main {
+    font-size: 24px;
+  }
+  img.gach {
+    display: none;
+  }
+  .tieude {
+    padding-bottom: 15px;
+  }
+  .newHot-info {
+    margin-left: 0;
+  }
+  .taisaochon-tieude {
+    font-size: 28px;
+  }
+  .gioithieu-index {
+    margin-bottom: 20px;
+  }
+  p.hotline-phone {
+    font-size: 25px;
+  }
+  p.text-hotline {
+    text-align: center;
+  }
+  .taisao-info.col-lg-6 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .box-readmore {
+    width: calc(100% - 5px);
+  }
+  .newshome-scroll {
+    width: 100%;
+  }
+
+  .newshome-intro {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .top-contact .form-contact .button-contact .file-contact span b {
+    max-width: 105px;
+  }
+
+  .cart-pro-detail {
+    flex-wrap: wrap;
+  }
+
+  .cart-pro-detail a {
+    width: 100%;
+    text-align: center;
+    margin: 0px !important;
+  }
+
+  .cart-pro-detail a:first-child {
+    margin-bottom: 5px !important;
+  }
+  .footer-mxh {
+    margin-bottom: 21px;
+  }
+
+  /*dich vu*/
+  .big-pic.scale-img {
+    margin: 0;
+  }
+  .taisaochon-index {
+    margin-left: 20px;
+  }
+}
