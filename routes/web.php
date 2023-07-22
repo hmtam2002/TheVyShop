@@ -16,18 +16,18 @@ use App\Http\Controllers\setting;
 
 Route::get('/', function () {
     return view('index');
-})->name('index');
-Route::get('/product', function () {
-    return view('product');
-});
-Route::get('/shop', function () {
-    return view('shop');
-});
-Route::get('/admin', function () {
-    return view('admin.index');
-});
-Route::get('/login', function () {
-    return view('admin.login');
-});
+})
+// Route::get('/product', function () {
+//     return view('product');
+// });
+// Route::get('/shop', function () {
+//     return view('shop');
+// });
+// Route::get('/admin', function () {
+//     return view('admin.index');
+// });
+// Route::get('/login', function () {
+//     return view('admin.login');
+// });
 
-Route::get('admin/app/setting/',[setting::class,'index']);
+// Route::get('admin/app/setting/',[setting::class,'index']);
